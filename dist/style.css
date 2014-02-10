@@ -1,0 +1,63 @@
+/* style.css */
+
+html, body, .cover {height: 100%; margin: 0px; width: 100%;}
+.cover td {width: 100%;}
+
+.modal {margin: 20px auto; width: 400px;}
+
+.format {background-color: #fff; width: 400px; border-bottom: 1px solid rgba(0,0,0,0.05);}
+.format-name {display: inline-block; vertical-align: middle; width: 80px; padding: 10px; text-align: right;}
+.format-name p {margin: 0px; color: #777;}
+.format-form {display: inline-block; vertical-align: middle; width: 320px; border-left: 1px solid #eee;}
+
+.input-row {padding: 5px 0px;}
+.input-row label {display: block; font-size: 1em; color: #333; margin-bottom: 5px;}
+
+#header p { margin: 0px; color: #333;}
+.format-body {padding: 10px;}
+.format-body p {margin: 0px; margin-bottom: 1em;}
+.format-body p:last-child {margin-bottom: 0px;}
+
+p.detail {color: #777; font-size: 0.9em;}
+
+.textbox {display: block; width: 100%; border: none; padding: 10px; font-size: 1em; outline: none;}
+/*
+.textbox {display: block; text-align: left; width: 100%; font-size: 1em; padding: 10px; border: 1px solid #ccc; border-top-color: #bbb; border-radius: 3px; box-shadow: inset 0 1px 2px rgba(0,0,0,0.1); outline: none;}
+.textbox:hover {border-color: #bbb; border-top-color: #aaa;}
+.textbox:focus {border-color: #08f; box-shadow: 0 0 3px rgba(0,128,255,0.3);}
+*/
+
+*, *:before, *:after {-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+* {font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;}
+
+.full-group {margin-bottom: 1em;}
+.full {display: block;}
+
+.half-group {margin-bottom: 1em;}
+.half {display: inline-block; width: 50%; padding: 0px 20px 0px 20px; vertical-align: top;}
+.half .half {padding: 0px 5px;}
+.half:nth-child(2n-1) {padding-left: 0px;}
+.half:nth-child(2n) {padding-right: 0px;}
+
+.third-group {}
+.third {display: inline-block; width: 33%; padding: 0px; vertical-align: top;}
+.third .input-third {border-right: 1px solid #eee;}
+.third:last-child .input-third {border-right: none;}
+
+.third:nth-child(3n-2) {padding-left: 0px;}
+.third:nth-child(3n) {padding-right: 0px;}
+
+.quarter-group {}
+.quarter {display: inline-block; width: 25%; padding: 0px; vertical-align: top;}
+.quarter .input-quarter {border-right: 1px solid #eee;}
+.quarter:last-child .input-quarter {border-right: none;}
+
+
+.quarter:nth-child(4n-3) {padding-left: 0px;}
+.quarter:nth-child(4n) {padding-right: 0px;}
+
+.block-bottom {vertical-align: bottom;}
+
+.textbox-formula {background-color: #fcfcfc; border-top: 1px solid #eee;}
+
+textarea {resize: vertical;}
