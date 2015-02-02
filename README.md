@@ -5,7 +5,7 @@ a better color converter
 
 ![color-me-shocked screenshot](https://raw.github.com/andrejewski/color-me-shocked/master/dist/screenshot.png)
 
-[See Color Me Shocked in Action](http://chrisandrejewski.com/project/color-me-shocked/)
+[See Color Me Shocked in Action](http://andrejewski.github.io/color-me-shocked/dist/)
 
 Before color-me-shocked, I had to go to Google, type "rgb to hex" or "hex to rgb" or "hsv to cmyk." Then input my value and then hit "convert." That's like 4 steps. 3 steps too many. This got rather tedious and all the flipping back and forth was making me work too hard. With a peaking interest in color theory and a "kill tons of birds with one stone" attitude, I sat down to solve this problem. Simply put, color-me-shocked is a color converter that updates in real-time as you type into multiple color formats all at once. It isn't prefect but it is pretty cool to use and I'm satified with it.
 
